@@ -2,7 +2,6 @@
 // /* eslint-disable @typescript-eslint/no-explicit-any */
 import {
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -14,7 +13,7 @@ import Image from "next/image";
 import { Control } from "react-hook-form";
 import PhoneInput from "react-phone-number-input";
 import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datePicker.css";
+import "react-datepicker/dist/react-datepicker.css";
 import { Select, SelectContent, SelectTrigger, SelectValue } from "./ui/select";
 import { Textarea } from "./ui/textarea";
 import { Checkbox } from "./ui/checkbox";
